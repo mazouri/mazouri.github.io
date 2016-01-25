@@ -3,9 +3,9 @@
   <title><![CDATA[Mazouri]]></title>
   <subtitle><![CDATA[我的博客]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2016-01-25T05:45:51.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://mazouri.me/"/>
+  <updated>2016-01-25T05:45:52.000Z</updated>
+  <id>http://mazouri.me/</id>
   
   <author>
     <name><![CDATA[Mazouri]]></name>
@@ -16,10 +16,10 @@
   
   <entry>
     <title><![CDATA[LeakCanary-让内存泄露无所遁形]]></title>
-    <link href="http://yoursite.com/2016/01/25/LeakCanary-%E8%AE%A9%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B2%E6%97%A0%E6%89%80%E9%81%81%E5%BD%A2/"/>
-    <id>http://yoursite.com/2016/01/25/LeakCanary-让内存泄露无所遁形/</id>
+    <link href="http://mazouri.me/2016/01/25/LeakCanary-%E8%AE%A9%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B2%E6%97%A0%E6%89%80%E9%81%81%E5%BD%A2/"/>
+    <id>http://mazouri.me/2016/01/25/LeakCanary-让内存泄露无所遁形/</id>
     <published>2016-01-25T02:25:58.000Z</published>
-    <updated>2016-01-25T05:45:51.000Z</updated>
+    <updated>2016-01-25T05:45:52.000Z</updated>
     <content type="html"><![CDATA[<h2 id="LeakCanary"><a href="#LeakCanary" class="headerlink" title="LeakCanary"></a>LeakCanary</h2><p>LeakCanary是一个检测Android和Java内存泄露的开源库。</p>
 <a id="more"></a>
 <h2 id="u5F00_u59CB_u4F7F_u7528"><a href="#u5F00_u59CB_u4F7F_u7528" class="headerlink" title="开始使用"></a>开始使用</h2><p>在你<code>build.gradle</code>中添加如下依赖：<br><figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">dependencies</span> &#123;</span><br><span class="line">   debugCompile <span class="string">'com.squareup.leakcanary:leakcanary-android:1.3.1'</span> <span class="comment">// or 1.4-beta1</span></span><br><span class="line">   releaseCompile <span class="string">'com.squareup.leakcanary:leakcanary-android-no-op:1.3.1'</span> <span class="comment">// or 1.4-beta1</span></span><br><span class="line">   testCompile <span class="string">'com.squareup.leakcanary:leakcanary-android-no-op:1.3.1'</span> <span class="comment">// or 1.4-beta1</span></span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure></p>
@@ -79,13 +79,13 @@
     
     </summary>
     
-      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+      <category term="Android" scheme="http://mazouri.me/tags/Android/"/>
     
-      <category term="LeakCanary" scheme="http://yoursite.com/tags/LeakCanary/"/>
+      <category term="LeakCanary" scheme="http://mazouri.me/tags/LeakCanary/"/>
     
-      <category term="内存泄露" scheme="http://yoursite.com/tags/%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B2/"/>
+      <category term="内存泄露" scheme="http://mazouri.me/tags/%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B2/"/>
     
-      <category term="内存泄露" scheme="http://yoursite.com/categories/%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B2/"/>
+      <category term="内存泄露" scheme="http://mazouri.me/categories/%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B2/"/>
     
   </entry>
   
