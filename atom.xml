@@ -4,7 +4,7 @@
   <subtitle><![CDATA[我的博客]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://mazouri.me/"/>
-  <updated>2016-01-25T05:45:52.000Z</updated>
+  <updated>2016-01-28T07:58:32.000Z</updated>
   <id>http://mazouri.me/</id>
   
   <author>
@@ -13,6 +13,49 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[打造专属自己的博客-使用Hexo、Github Pages、Markdown（风靡IT圈）]]></title>
+    <link href="http://mazouri.me/2016/01/28/%E6%89%93%E9%80%A0%E4%B8%93%E5%B1%9E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2-%E4%BD%BF%E7%94%A8Hexo%E3%80%81Github-Pages%E3%80%81Markdown%EF%BC%88%E9%A3%8E%E9%9D%A1IT%E5%9C%88%EF%BC%89/"/>
+    <id>http://mazouri.me/2016/01/28/打造专属自己的博客-使用Hexo、Github-Pages、Markdown（风靡IT圈）/</id>
+    <published>2016-01-28T06:31:39.000Z</published>
+    <updated>2016-01-28T07:58:32.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="u5199_u5728_u524D_u9762"><a href="#u5199_u5728_u524D_u9762" class="headerlink" title="写在前面"></a>写在前面</h2><p>IT圈的，特别是码农们，写博客是最平常的事儿了。国内有不少平台，我之前用过的是oschina和CSDN，用了一段时间，各有优点，但不是很满意。作为程序员，我们更需要的是属于自己打造，有自己风格的一个地方。</p>
+<p>于是，这里，便成了一个程序员很好的选择。<br><a id="more"></a></p>
+<h2 id="u5F00_u59CB"><a href="#u5F00_u59CB" class="headerlink" title="开始"></a>开始</h2><h3 id="u73AF_u5883_u51C6_u5907"><a href="#u73AF_u5883_u51C6_u5907" class="headerlink" title="环境准备"></a>环境准备</h3><ol>
+<li>安装<strong>Note.js</strong>,下载地址：<a href="http://nodejs.org/download/" target="_blank" rel="external">http://nodejs.org/download/</a>，正常安装就行。</li>
+<li>安装Git：<br> Ubuntu：<code>sudo apt-get install git</code>,其他系统请百度</li>
+<li>安装Hexo：<br>请先确认已经安装了note和npm：<br><code>node -v</code><br><code>npm -v</code><br>然后安装Hexo: <code>npm install -g hexo</code></li>
+</ol>
+<h3 id="Github_u521B_u5EFApage"><a href="#Github_u521B_u5EFApage" class="headerlink" title="Github创建page"></a>Github创建page</h3><p>创建一个名为your_user_name.github.io的仓库，按步骤一路到底，你就有了自己的博客网页了。<br>地址栏输入 <a href="https://your_user_name.github.io" target="_blank" rel="external">https://your_user_name.github.io</a> ，即可访问</p>
+<h2 id="Hexo_u4F7F_u7528"><a href="#Hexo_u4F7F_u7528" class="headerlink" title="Hexo使用"></a>Hexo使用</h2><p>创建一个属于Hexo的目录<br>进入你的目录，初始化：hexo init<br>生成静态页面： hexo generate或者hexo g<br>启动本地服务进行预览： hexo server或者 hexo s，并在浏览器输入：<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a><br>可能会出一些错误，下面是解决方案：<br>1.ERROR Plugin load failed: hexo-server<br>执行命令：sudo npm install hexo-server解决<br>2.执行hexo server时时报错：<br>    Usage: hexo<br>    …<br>执行命令：sudo npm install hexo-server –save解决</p>
+<p>再执行hexo-server时，出现：<br><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INFO  Hexo is running <span class="keyword">at</span> <span class="keyword">http</span>://<span class="number">0.0</span><span class="number">.0</span><span class="number">.0</span>:<span class="number">4000</span>/. Press Ctrl+C <span class="built_in">to</span> <span class="built_in">stop</span>.</span><br></pre></td></tr></table></figure></p>
+<p>表示成功了。<br>3.还需要执行：<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo npm <span class="operator"><span class="keyword">install</span> hexo-renderer-ejs <span class="comment">--save</span></span><br><span class="line">sudo npm <span class="keyword">install</span> hexo-renderer-stylus <span class="comment">--save</span></span><br><span class="line">sudo npm <span class="keyword">install</span> hexo-renderer-marked <span class="comment">--save</span></span></span><br></pre></td></tr></table></figure></p>
+<p>否则静态页面没有东西<br>这时候再执行hexo s -g就成功生成页面了。<br>注：hexo s -g 是hexo g和hexo s两步骤的简写，以后都可这么写</p>
+<h2 id="Hexo_u4E0EGithub_pages_u5EFA_u7ACB_u5173_u8054"><a href="#Hexo_u4E0EGithub_pages_u5EFA_u7ACB_u5173_u8054" class="headerlink" title="Hexo与Github pages建立关联"></a>Hexo与Github pages建立关联</h2><p>需要进入你创建的hexo的目录，修改_config.yml文件，文档中内容的含义可见：<a href="https://hexo.io/zh-cn/docs/configuration.html" target="_blank" rel="external">_config.yml</a><br>翻到最后一行，修改deploy后的内容：<br>我的是这样的：<br><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">deploy</span>:</span><br><span class="line">  <span class="attribute">type</span>: git</span><br><span class="line">  <span class="attribute">repository</span>: git<span class="variable">@github</span>.<span class="attribute">com</span>:mazouri/mazouri.github.io.git</span><br><span class="line">  <span class="attribute">branch</span>: master</span><br></pre></td></tr></table></figure></p>
+<p>然后执行：hexo deploy<br>这步是部署到你的博客网页：<a href="https://your_user_name.github.io" target="_blank" rel="external">https://your_user_name.github.io</a></p>
+<p>注：以后每次修改后部署的步骤是这样的：<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">hexo</span> clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></p>
+<p>然后你就可以执行：hexo new “postName” 去新建一篇博客，博客文件默认在source/_post/目录中，通过markdown修改文档即可。</p>
+<h2 id="Hexo_u4E3B_u9898"><a href="#Hexo_u4E3B_u9898" class="headerlink" title="Hexo主题"></a>Hexo主题</h2><p>默认的页面并不一定适合你，下面你就需要选择一些你认为美观的博客主题：<br>比较完整的可以参考：<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">Themes</a><br>也可参考经典：<a href="https://hexo.io/themes/" target="_blank" rel="external">经典Themes</a><br>然后把你选择的Theme clone到themes目录下<br>当然，如果你是个前段达人，你可以选择自己去定义主题，不过还是建议你先站在别人的肩膀上。<br>我使用的主题是依赖于<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external">Yilia</a>的，可以去我的博客看看效果：<a href="http://mazouri.me/">Mazouri</a>,也可以看看我用的主题：<strong><a href="https://github.com/mazouri/hexo-theme-mazouri" target="_blank" rel="external">hexo-theme-mazouri</a></strong>,以后会对其进行优化。</p>
+<h2 id="u4F7F_u7528Markdown"><a href="#u4F7F_u7528Markdown" class="headerlink" title="使用Markdown"></a>使用Markdown</h2><p>我使用的是Haroopad，你可以在<a href="http://pad.haroopress.com/user.html" target="_blank" rel="external">官网</a>，进行不同平台的下载安装。<br>你还需要学学基本的语法：<br><a href="https://maxiang.io/" target="_blank" rel="external">Markdown语法示例文档</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="u5199_u5728_u524D_u9762"><a href="#u5199_u5728_u524D_u9762" class="headerlink" title="写在前面"></a>写在前面</h2><p>IT圈的，特别是码农们，写博客是最平常的事儿了。国内有不少平台，我之前用过的是oschina和CSDN，用了一段时间，各有优点，但不是很满意。作为程序员，我们更需要的是属于自己打造，有自己风格的一个地方。</p>
+<p>于是，这里，便成了一个程序员很好的选择。<br>]]>
+    
+    </summary>
+    
+      <category term="Github pages" scheme="http://mazouri.me/tags/Github-pages/"/>
+    
+      <category term="Hexo" scheme="http://mazouri.me/tags/Hexo/"/>
+    
+      <category term="Markdown" scheme="http://mazouri.me/tags/Markdown/"/>
+    
+      <category term="个人博客" scheme="http://mazouri.me/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="Hexo" scheme="http://mazouri.me/categories/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[LeakCanary-让内存泄露无所遁形]]></title>
