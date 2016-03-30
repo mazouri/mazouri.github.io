@@ -13,7 +13,7 @@
 <meta property="og:site_name" content="Mazouri">
 <meta property="og:description" content="写在前面IT圈的，特别是码农们，写博客是最平常的事儿了。国内有不少平台，我之前用过的是cnblogs博客园和CSDN，用了一段时间，各有优点，但不是很满意。作为程序员，我们更需要的是属于自己打造，有自己风格的一个地方。
 于是，这里，便成了一个程序员很好的选择。">
-<meta property="og:updated_time" content="2016-01-29T01:29:29.000Z">
+<meta property="og:updated_time" content="2016-03-30T08:04:17.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="打造专属自己的博客-使用Hexo、Github Pages、Markdown（风靡IT圈）">
 <meta name="twitter:description" content="写在前面IT圈的，特别是码农们，写博客是最平常的事儿了。国内有不少平台，我之前用过的是cnblogs博客园和CSDN，用了一段时间，各有优点，但不是很满意。作为程序员，我们更需要的是属于自己打造，有自己风格的一个地方。
@@ -287,7 +287,7 @@
 <p>否则静态页面没有东西<br>这时候再执行hexo s -g就成功生成页面了。<br>注：hexo s -g 是hexo g和hexo s两步骤的简写，以后都可这么写</p>
 <h2 id="Hexo_u4E0EGithub_pages_u5EFA_u7ACB_u5173_u8054"><a href="#Hexo_u4E0EGithub_pages_u5EFA_u7ACB_u5173_u8054" class="headerlink" title="Hexo与Github pages建立关联"></a>Hexo与Github pages建立关联</h2><p>需要进入你创建的hexo的目录，修改_config.yml文件，文档中内容的含义可见：<a href="https://hexo.io/zh-cn/docs/configuration.html" target="_blank" rel="external">_config.yml</a><br>翻到最后一行，修改deploy后的内容：<br>我的是这样的：<br><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">deploy</span>:</span><br><span class="line">  <span class="attribute">type</span>: git</span><br><span class="line">  <span class="attribute">repository</span>: git<span class="variable">@github</span>.<span class="attribute">com</span>:mazouri/mazouri.github.io.git</span><br><span class="line">  <span class="attribute">branch</span>: master</span><br></pre></td></tr></table></figure></p>
 <p>然后执行：hexo deploy<br>这步是部署到你的博客网页：<a href="https://your_user_name.github.io" target="_blank" rel="external">https://your_user_name.github.io</a></p>
-<p>注：以后每次修改后部署的步骤是这样的：<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">hexo</span> clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></p>
+<p>注：以后每次修改后部署的步骤是这样的：<br><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo <span class="keyword">generate</span></span><br><span class="line">hexo deploy</span><br><span class="line"></span><br><span class="line">or</span><br><span class="line"></span><br><span class="line">hexo <span class="keyword">d</span> -<span class="keyword">g</span></span><br></pre></td></tr></table></figure></p>
 <p>然后你就可以执行：hexo new “postName” 去新建一篇博客，博客文件默认在source/_post/目录中，通过markdown修改文档即可。</p>
 <h2 id="Hexo_u4E3B_u9898"><a href="#Hexo_u4E3B_u9898" class="headerlink" title="Hexo主题"></a>Hexo主题</h2><p>默认的页面并不一定适合你，下面你就需要选择一些你认为美观的博客主题：<br>比较完整的可以参考：<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">Themes</a><br>也可参考经典：<a href="https://hexo.io/themes/" target="_blank" rel="external">经典Themes</a><br>然后把你选择的Theme clone到themes目录下<br>当然，如果你是个前段达人，你可以选择自己去定义主题，不过还是建议你先站在别人的肩膀上。<br>我使用的主题是依赖于<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external">Yilia</a>的，可以去我的博客看看效果：<a href="http://mazouri.me/">Mazouri</a>,也可以看看我用的主题：<strong><a href="https://github.com/mazouri/hexo-theme-mazouri" target="_blank" rel="external">hexo-theme-mazouri</a></strong>,以后会对其进行优化。</p>
 <h2 id="u4F7F_u7528Markdown"><a href="#u4F7F_u7528Markdown" class="headerlink" title="使用Markdown"></a>使用Markdown</h2><p>我使用的是Haroopad，你可以在<a href="http://pad.haroopress.com/user.html" target="_blank" rel="external">官网</a>，进行不同平台的下载安装。<br>你还需要学学基本的语法：<br><a href="https://maxiang.io/" target="_blank" rel="external">Markdown语法示例文档</a></p>
@@ -302,7 +302,7 @@
         <p><span>本文标题:</span><a href="/2016/01/28/打造专属自己的博客-使用Hexo、Github-Pages、Markdown（风靡IT圈）/">打造专属自己的博客-使用Hexo、Github Pages、Markdown（风靡IT圈）</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 Mazouri 的个人博客">Mazouri</a></p>
         <p><span>发布时间:</span>2016年01月28日 - 14时31分</p>
-        <p><span>最后更新:</span>2016年01月29日 - 09时29分</p>
+        <p><span>最后更新:</span>2016年03月30日 - 16时04分</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/01/28/打造专属自己的博客-使用Hexo、Github-Pages、Markdown（风靡IT圈）/" title="打造专属自己的博客-使用Hexo、Github Pages、Markdown（风靡IT圈）">http://mazouri.me/2016/01/28/打造专属自己的博客-使用Hexo、Github-Pages、Markdown（风靡IT圈）/</a>
             <span class="copy-path" data-clipboard-text="原文: http://mazouri.me/2016/01/28/打造专属自己的博客-使用Hexo、Github-Pages、Markdown（风靡IT圈）/　　作者: Mazouri" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
