@@ -5,22 +5,16 @@
   
   <title>AIYSS(1)-Android生命周期与启动模式 | Mazouri</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="官网Android Guide中关于Activities的介绍，里面有lifecycle的详细介绍。Tasks and Back Stack任务管理与启动模式。
-Android开发艺术探索##生命周期
-典型情况下生命周期1.常用生命周期方法：7个，需要知道(1).调用这些方法时Activity的状态。(2).什么情况下被调用。(3).这些方法里执行哪些操作。2.生命周期的切换过程图：流程图， 这个">
+  <meta name="description" content="官网Android Guide中关于Activities的介绍，里面有lifecycle的详细介绍。Tasks and Back Stack任务管理与启动模式。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="AIYSS(1)-Android生命周期与启动模式">
 <meta property="og:url" content="http://mazouri.me/2016/03/30/AIYSS-1-Android生命周期与启动模式/index.html">
 <meta property="og:site_name" content="Mazouri">
-<meta property="og:description" content="官网Android Guide中关于Activities的介绍，里面有lifecycle的详细介绍。Tasks and Back Stack任务管理与启动模式。
-Android开发艺术探索##生命周期
-典型情况下生命周期1.常用生命周期方法：7个，需要知道(1).调用这些方法时Activity的状态。(2).什么情况下被调用。(3).这些方法里执行哪些操作。2.生命周期的切换过程图：流程图， 这个">
-<meta property="og:updated_time" content="2016-03-30T07:54:37.000Z">
+<meta property="og:description" content="官网Android Guide中关于Activities的介绍，里面有lifecycle的详细介绍。Tasks and Back Stack任务管理与启动模式。">
+<meta property="og:updated_time" content="2016-03-30T07:59:52.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="AIYSS(1)-Android生命周期与启动模式">
-<meta name="twitter:description" content="官网Android Guide中关于Activities的介绍，里面有lifecycle的详细介绍。Tasks and Back Stack任务管理与启动模式。
-Android开发艺术探索##生命周期
-典型情况下生命周期1.常用生命周期方法：7个，需要知道(1).调用这些方法时Activity的状态。(2).什么情况下被调用。(3).这些方法里执行哪些操作。2.生命周期的切换过程图：流程图， 这个">
+<meta name="twitter:description" content="官网Android Guide中关于Activities的介绍，里面有lifecycle的详细介绍。Tasks and Back Stack任务管理与启动模式。">
   
     <link rel="alternative" href="/atom.xml" title="Mazouri" type="application/atom+xml">
   
@@ -277,6 +271,7 @@ Android开发艺术探索##生命周期
       
           
         <h1 id="u5B98_u7F51"><a href="#u5B98_u7F51" class="headerlink" title="官网"></a>官网</h1><p>Android Guide中关于<a href="http://developer.android.com/guide/components/activities.html" target="_blank" rel="external">Activities</a>的介绍，里面有lifecycle的详细介绍。<br><a href="http://developer.android.com/guide/components/tasks-and-back-stack.html" target="_blank" rel="external">Tasks and Back Stack</a>任务管理与启动模式。</p>
+<a id="more"></a>
 <h1 id="Android_u5F00_u53D1_u827A_u672F_u63A2_u7D22"><a href="#Android_u5F00_u53D1_u827A_u672F_u63A2_u7D22" class="headerlink" title="Android开发艺术探索"></a>Android开发艺术探索</h1><p>##生命周期</p>
 <h3 id="u5178_u578B_u60C5_u51B5_u4E0B_u751F_u547D_u5468_u671F"><a href="#u5178_u578B_u60C5_u51B5_u4E0B_u751F_u547D_u5468_u671F" class="headerlink" title="典型情况下生命周期"></a>典型情况下生命周期</h3><p>1.常用生命周期方法：7个，需要知道(1).调用这些方法时Activity的状态。(2).什么情况下被调用。(3).这些方法里执行哪些操作。<br>2.生命周期的切换过程图：<a href="http://developer.android.com/guide/components/activities.html#Lifecycle" target="_blank" rel="external">流程图</a>， 这个是需要会画会讲的，讲的时候配合各生命周期方法，然后针对这个图附加几种情况说明（page3里(1)-&gt;(6)）</p>
 <p>Q1: onStart和onResume、 onPause和onStop从描述上来看差不多，对我们来说有什么实质的不同呢？<br>Q2：假设当前Activity为A，如果这时用户打开一个新ActivityB，那么B的onResume和A的onPause哪个先执行呢？<br>A1A2:page4-&gt;5</p>
@@ -297,7 +292,7 @@ Android开发艺术探索##生命周期
         <p><span>本文标题:</span><a href="/2016/03/30/AIYSS-1-Android生命周期与启动模式/">AIYSS(1)-Android生命周期与启动模式</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 Mazouri 的个人博客">Mazouri</a></p>
         <p><span>发布时间:</span>2016年03月30日 - 10时38分</p>
-        <p><span>最后更新:</span>2016年03月30日 - 15时54分</p>
+        <p><span>最后更新:</span>2016年03月30日 - 15时59分</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/03/30/AIYSS-1-Android生命周期与启动模式/" title="AIYSS(1)-Android生命周期与启动模式">http://mazouri.me/2016/03/30/AIYSS-1-Android生命周期与启动模式/</a>
             <span class="copy-path" data-clipboard-text="原文: http://mazouri.me/2016/03/30/AIYSS-1-Android生命周期与启动模式/　　作者: Mazouri" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>

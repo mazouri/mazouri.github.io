@@ -4,7 +4,7 @@
   <subtitle><![CDATA[我的博客]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://mazouri.me/"/>
-  <updated>2016-03-30T07:54:37.000Z</updated>
+  <updated>2016-03-30T07:59:52.000Z</updated>
   <id>http://mazouri.me/</id>
   
   <author>
@@ -19,8 +19,9 @@
     <link href="http://mazouri.me/2016/03/30/AIYSS-1-Android%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E4%B8%8E%E5%90%AF%E5%8A%A8%E6%A8%A1%E5%BC%8F/"/>
     <id>http://mazouri.me/2016/03/30/AIYSS-1-Android生命周期与启动模式/</id>
     <published>2016-03-30T02:38:03.000Z</published>
-    <updated>2016-03-30T07:54:37.000Z</updated>
+    <updated>2016-03-30T07:59:52.000Z</updated>
     <content type="html"><![CDATA[<h1 id="u5B98_u7F51"><a href="#u5B98_u7F51" class="headerlink" title="官网"></a>官网</h1><p>Android Guide中关于<a href="http://developer.android.com/guide/components/activities.html" target="_blank" rel="external">Activities</a>的介绍，里面有lifecycle的详细介绍。<br><a href="http://developer.android.com/guide/components/tasks-and-back-stack.html" target="_blank" rel="external">Tasks and Back Stack</a>任务管理与启动模式。</p>
+<a id="more"></a>
 <h1 id="Android_u5F00_u53D1_u827A_u672F_u63A2_u7D22"><a href="#Android_u5F00_u53D1_u827A_u672F_u63A2_u7D22" class="headerlink" title="Android开发艺术探索"></a>Android开发艺术探索</h1><p>##生命周期</p>
 <h3 id="u5178_u578B_u60C5_u51B5_u4E0B_u751F_u547D_u5468_u671F"><a href="#u5178_u578B_u60C5_u51B5_u4E0B_u751F_u547D_u5468_u671F" class="headerlink" title="典型情况下生命周期"></a>典型情况下生命周期</h3><p>1.常用生命周期方法：7个，需要知道(1).调用这些方法时Activity的状态。(2).什么情况下被调用。(3).这些方法里执行哪些操作。<br>2.生命周期的切换过程图：<a href="http://developer.android.com/guide/components/activities.html#Lifecycle" target="_blank" rel="external">流程图</a>， 这个是需要会画会讲的，讲的时候配合各生命周期方法，然后针对这个图附加几种情况说明（page3里(1)-&gt;(6)）</p>
 <p>Q1: onStart和onResume、 onPause和onStop从描述上来看差不多，对我们来说有什么实质的不同呢？<br>Q2：假设当前Activity为A，如果这时用户打开一个新ActivityB，那么B的onResume和A的onPause哪个先执行呢？<br>A1A2:page4-&gt;5</p>
@@ -32,7 +33,8 @@
 <p>(待续…)</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h1 id="u5B98_u7F51"><a href="#u5B98_u7F51" class="headerlink" title="官网"></a>官网</h1><p>Android Guide中关于<a href="http://developer.android.co]]>
+    <![CDATA[<h1 id="u5B98_u7F51"><a href="#u5B98_u7F51" class="headerlink" title="官网"></a>官网</h1><p>Android Guide中关于<a href="http://developer.android.com/guide/components/activities.html">Activities</a>的介绍，里面有lifecycle的详细介绍。<br><a href="http://developer.android.com/guide/components/tasks-and-back-stack.html">Tasks and Back Stack</a>任务管理与启动模式。</p>]]>
+    
     </summary>
     
       <category term="Android" scheme="http://mazouri.me/tags/Android/"/>
@@ -56,8 +58,9 @@
     <link href="http://mazouri.me/2016/03/30/Android-interview-you-should-say/"/>
     <id>http://mazouri.me/2016/03/30/Android-interview-you-should-say/</id>
     <published>2016-03-30T02:22:39.000Z</published>
-    <updated>2016-03-30T02:35:02.000Z</updated>
+    <updated>2016-03-30T07:59:32.000Z</updated>
     <content type="html"><![CDATA[<h2 id="u5199_u5728_u524D_u9762"><a href="#u5199_u5728_u524D_u9762" class="headerlink" title="写在前面"></a>写在前面</h2><p>《Android开发艺术探索》、《Android群英传》、《Android源码开发模式解析与实战》</p>
+<a id="more"></a>
 <ol>
 <li>《开发艺术》：互动地址：<a href="http://blog.csdn.net/singwhatiwanna" target="_blank" rel="external">CSDN博客</a>    <a href="https://github.com/singwhatiwanna" target="_blank" rel="external">Github</a> <a href="https://github.com/singwhatiwanna/android-art-res" target="_blank" rel="external">书中代码</a></li>
 <li>《Android群英传》：</li>
@@ -65,7 +68,8 @@
 </ol>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h2 id="u5199_u5728_u524D_u9762"><a href="#u5199_u5728_u524D_u9762" class="headerlink" title="写在前面"></a>写在前面</h2><p>《Android开发艺术探索》、《Android]]>
+    <![CDATA[<h2 id="u5199_u5728_u524D_u9762"><a href="#u5199_u5728_u524D_u9762" class="headerlink" title="写在前面"></a>写在前面</h2><p>《Android开发艺术探索》、《Android群英传》、《Android源码开发模式解析与实战》</p>]]>
+    
     </summary>
     
       <category term="Android" scheme="http://mazouri.me/tags/Android/"/>
