@@ -146,7 +146,7 @@
                 
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
-                        <a href="/tags/Android/" style="font-size: 20px;">Android</a> <a href="/tags/Github-pages/" style="font-size: 10px;">Github pages</a> <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/LeakCanary/" style="font-size: 10px;">LeakCanary</a> <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a> <a href="/tags/code/" style="font-size: 10px;">code</a> <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/interview/" style="font-size: 10px;">interview</a> <a href="/tags/个人博客/" style="font-size: 10px;">个人博客</a> <a href="/tags/内存泄露/" style="font-size: 10px;">内存泄露</a>
+                        <a href="/tags/Android/" style="font-size: 20px;">Android</a> <a href="/tags/Github-pages/" style="font-size: 10px;">Github pages</a> <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/LeakCanary/" style="font-size: 10px;">LeakCanary</a> <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a> <a href="/tags/code/" style="font-size: 15px;">code</a> <a href="/tags/github/" style="font-size: 15px;">github</a> <a href="/tags/interview/" style="font-size: 15px;">interview</a> <a href="/tags/launchmode/" style="font-size: 10px;">launchmode</a> <a href="/tags/lifesycle/" style="font-size: 10px;">lifesycle</a> <a href="/tags/个人博客/" style="font-size: 10px;">个人博客</a> <a href="/tags/内存泄露/" style="font-size: 10px;">内存泄露</a>
                     </div>
                 </section>
                 
@@ -231,6 +231,76 @@
     </div>
 </nav>
       <div class="body-wrap">
+  
+    <article id="post-AIYSS-1-Android生命周期与启动模式" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/03/30/AIYSS-1-Android生命周期与启动模式/" class="article-date">
+      <time datetime="2016-03-30T02:38:03.000Z" itemprop="datePublished">2016-03-30</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/03/30/AIYSS-1-Android生命周期与启动模式/">AIYSS(1)-Android生命周期与启动模式</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h1 id="u5B98_u7F51"><a href="#u5B98_u7F51" class="headerlink" title="官网"></a>官网</h1><p>Android Guide中关于<a href="http://developer.android.com/guide/components/activities.html" target="_blank" rel="external">Activities</a>的介绍，里面有lifecycle的详细介绍。<br><a href="http://developer.android.com/guide/components/tasks-and-back-stack.html" target="_blank" rel="external">Tasks and Back Stack</a>任务管理与启动模式。</p>
+<h1 id="Android_u5F00_u53D1_u827A_u672F_u63A2_u7D22"><a href="#Android_u5F00_u53D1_u827A_u672F_u63A2_u7D22" class="headerlink" title="Android开发艺术探索"></a>Android开发艺术探索</h1><p>##生命周期</p>
+<h3 id="u5178_u578B_u60C5_u51B5_u4E0B_u751F_u547D_u5468_u671F"><a href="#u5178_u578B_u60C5_u51B5_u4E0B_u751F_u547D_u5468_u671F" class="headerlink" title="典型情况下生命周期"></a>典型情况下生命周期</h3><p>1.常用生命周期方法：7个，需要知道(1).调用这些方法时Activity的状态。(2).什么情况下被调用。(3).这些方法里执行哪些操作。<br>2.生命周期的切换过程图：<a href="http://developer.android.com/guide/components/activities.html#Lifecycle" target="_blank" rel="external">流程图</a>， 这个是需要会画会讲的，讲的时候配合各生命周期方法，然后针对这个图附加几种情况说明（page3里(1)-&gt;(6)）</p>
+<p>Q1: onStart和onResume、 onPause和onStop从描述上来看差不多，对我们来说有什么实质的不同呢？<br>Q2：假设当前Activity为A，如果这时用户打开一个新ActivityB，那么B的onResume和A的onPause哪个先执行呢？<br>A1A2:page4-&gt;5</p>
+<h3 id="u5F02_u5E38_u60C5_u51B5_u4E0B_u751F_u547D_u5468_u671F"><a href="#u5F02_u5E38_u60C5_u51B5_u4E0B_u751F_u547D_u5468_u671F" class="headerlink" title="异常情况下生命周期"></a>异常情况下生命周期</h3><ol>
+<li>情况1：资源相关的系统配置发生改变导致Activity被杀死并重新创建（page8-&gt;12）</li>
+<li>情况2：资源内存不足导致低优先级的Activity被杀死（page13-&gt;15）</li>
+</ol>
+<p>##启动模式</p>
+<p>(待续…)</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/Android/">Android</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Android/">Android</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/code/">code</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/github/">github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/interview/">interview</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/launchmode/">launchmode</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/lifesycle/">lifesycle</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
   
     <article id="post-Android-interview-you-should-say" class="article article-type-post" itemscope itemprop="blogPost">
   
