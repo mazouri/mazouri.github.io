@@ -4,7 +4,7 @@
   <subtitle><![CDATA[我的博客]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://mazouri.me/"/>
-  <updated>2016-03-30T07:59:52.000Z</updated>
+  <updated>2016-04-02T11:05:25.000Z</updated>
   <id>http://mazouri.me/</id>
   
   <author>
@@ -15,11 +15,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[[Practice Speaking 流利说][April]]]></title>
+    <link href="http://mazouri.me/2016/04/02/Practice-Speaking-%E6%B5%81%E5%88%A9%E8%AF%B4-April/"/>
+    <id>http://mazouri.me/2016/04/02/Practice-Speaking-流利说-April/</id>
+    <published>2016-04-02T06:05:17.000Z</published>
+    <updated>2016-04-02T11:05:25.000Z</updated>
+    <content type="html"><![CDATA[<p>##【白领一族*第一辑】</p>
+<p>###【Lesson1 面试应试者】<br><figure class="highlight http"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">M</span>: <span class="string">Tell me abount yourselef, Sharon. Why are you appling for this job!</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">W</span>: <span class="string">In my research abount Millennium, it sounds like a perfit fit for me.</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">M</span>: <span class="string">Why is that?</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">W</span>: <span class="string">This company has won a lot of awards for its R&amp;D. I also love the new Marketing campaign.</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">M</span>: <span class="string">You did your homework. why are you a good fit? What can you bring to the team?</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">W</span>: <span class="string">As my references will tell you, I am an over-achiever. I excel at mutil-tasking and I am an enthusiastic team player.</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">M</span>: <span class="string">Good, good. Have you done any computer work?</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">W</span>: <span class="string">As a free-lancer, I collaborated with my client to develop a web page.</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">M</span>: <span class="string">Are you proficient in Microsoft and Adobe?</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">W</span>: <span class="string">Yes, I am.</span></span></span></span></span></span></span></span></span></span></span><br></pre></td></tr></table></figure></p>
+<p>…not the end…</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>##【白领一族*第一辑】</p>
+<p>###【Lesson1 面试应试者】<br><figure class="highlight http"><table><tr><td class="gutter"><pre><span class="line">1</span><b]]>
+    </summary>
+    
+      <category term="English" scheme="http://mazouri.me/tags/English/"/>
+    
+      <category term="流利说" scheme="http://mazouri.me/tags/%E6%B5%81%E5%88%A9%E8%AF%B4/"/>
+    
+      <category term="English" scheme="http://mazouri.me/categories/English/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[AIYSS(1)-Android生命周期与启动模式]]></title>
     <link href="http://mazouri.me/2016/03/30/AIYSS-1-Android%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E4%B8%8E%E5%90%AF%E5%8A%A8%E6%A8%A1%E5%BC%8F/"/>
     <id>http://mazouri.me/2016/03/30/AIYSS-1-Android生命周期与启动模式/</id>
     <published>2016-03-30T02:38:03.000Z</published>
-    <updated>2016-03-30T07:59:52.000Z</updated>
+    <updated>2016-03-30T08:02:18.000Z</updated>
     <content type="html"><![CDATA[<h1 id="u5B98_u7F51"><a href="#u5B98_u7F51" class="headerlink" title="官网"></a>官网</h1><p>Android Guide中关于<a href="http://developer.android.com/guide/components/activities.html" target="_blank" rel="external">Activities</a>的介绍，里面有lifecycle的详细介绍。<br><a href="http://developer.android.com/guide/components/tasks-and-back-stack.html" target="_blank" rel="external">Tasks and Back Stack</a>任务管理与启动模式。</p>
 <a id="more"></a>
 <h1 id="Android_u5F00_u53D1_u827A_u672F_u63A2_u7D22"><a href="#Android_u5F00_u53D1_u827A_u672F_u63A2_u7D22" class="headerlink" title="Android开发艺术探索"></a>Android开发艺术探索</h1><p>##生命周期</p>
