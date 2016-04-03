@@ -4,7 +4,7 @@
   <subtitle><![CDATA[我的博客]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://mazouri.me/"/>
-  <updated>2016-04-02T11:06:46.000Z</updated>
+  <updated>2016-04-03T14:05:01.000Z</updated>
   <id>http://mazouri.me/</id>
   
   <author>
@@ -15,14 +15,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[Ubuntu Terminal shortcuts]]></title>
+    <link href="http://mazouri.me/2016/04/03/Ubuntu-Terminal-shortcuts/"/>
+    <id>http://mazouri.me/2016/04/03/Ubuntu-Terminal-shortcuts/</id>
+    <published>2016-04-03T14:02:14.000Z</published>
+    <updated>2016-04-03T14:05:01.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="u5FEB_u6377_u952E_u96C6_u5408"><a href="#u5FEB_u6377_u952E_u96C6_u5408" class="headerlink" title="快捷键集合"></a>快捷键集合</h2><p>快捷键 功能<br>Tab 自动补全<br>Ctrl+a 光标移动到开始位置<br>Ctrl+e 光标移动到最末尾<br>Ctrl+k 删除此处至末尾的所有内容<br>Ctrl+u 删除此处至开始的所有内容<br>Ctrl+d 删除当前字符<br>Ctrl+h 删除当前字符前一个字符<br>Ctrl+w 删除此处到左边的单词<br>Ctrl+y 粘贴由 Ctrl+u ， Ctrl+d ， Ctrl+w 删除的单词<br>Ctrl+l 相当于clear，即清屏<br>Ctrl+r 查找历史命令<br>Ctrl+b 向回移动光标<br>Ctrl+f 向前移动光标<br>Ctrl+t 将光标位置的字符和前一个字符进行位置交换<br>Ctrl+&amp; 恢复 ctrl+h 或者 ctrl+d 或者 ctrl+w 删除的内容<br>Ctrl+S 暂停屏幕输出<br>Ctrl+Q 继续屏幕输出<br>Ctrl+Left-Arrow 光标移动到上一个单词的词首<br>Ctrl+Right-Arrow 光标移动到下一个单词的词尾<br>Ctrl+p 向上显示缓存命令<br>Ctrl+n 向下显示缓存命令<br>Ctrl+d 关闭终端<br>Ctrl+xx 在EOL和当前光标位置移动<br>Ctrl+x@ 显示可能hostname补全<br>Ctrl+c 终止进程/命令<br>Shift +上或下 终端上下滚动<br>Shift+PgUp/PgDn 终端上下翻页滚动<br>Ctrl+Shift+n 新终端<br>alt+F2 输入gnome-terminal打开终端<br>Shift+Ctrl+T 打开新的标签页<br>Shift+Ctrl+W 关闭标签页<br>Shift+Ctrl+C 复制<br>Shift+Ctrl+V 粘贴<br>Alt+数字 切换至对应的标签页<br>Shift+Ctrl+N 打开新的终端窗口<br>Shift+Ctrl+Q 管壁终端窗口<br>Shift+Ctrl+PgUp/PgDn 左移右移标签页<br>Ctrl+PgUp/PgDn 切换标签页<br>F1 打开帮助指南<br>F10 激活菜单栏<br>F11 全屏切换<br>Alt+F 打开 “文件” 菜单（file）<br>Alt+E 打开 “编辑” 菜单（edit）<br>Alt+V 打开 “查看” 菜单（view）<br>Alt+S 打开 “搜索” 菜单（search）<br>Alt+T 打开 “终端” 菜单（terminal）<br>Alt+H 打开 “帮助” 菜单（help）</p>
+<p>另外一些小技巧包括：在终端窗口命令提示符下，连续按两次 Tab 键、或者连续按三次 Esc 键、或者按 Ctrl+I 组合键，将显示所有的命令及工具名称。Application 键即位置在键盘上右 Ctrl 键左边的那个键，作用相当于单击鼠标右键。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="u5FEB_u6377_u952E_u96C6_u5408"><a href="#u5FEB_u6377_u952E_u96C6_u5408" class="headerlink" title="快捷键集合"></a>快捷键集合</h2><p>快捷键 功能<br>]]>
+    </summary>
+    
+      <category term="快捷键，ubuntu" scheme="http://mazouri.me/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE%EF%BC%8Cubuntu/"/>
+    
+      <category term="快捷工作" scheme="http://mazouri.me/categories/%E5%BF%AB%E6%8D%B7%E5%B7%A5%E4%BD%9C/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[[Practice Speaking 流利说][April]]]></title>
     <link href="http://mazouri.me/2016/04/02/Practice-Speaking-%E6%B5%81%E5%88%A9%E8%AF%B4-April/"/>
     <id>http://mazouri.me/2016/04/02/Practice-Speaking-流利说-April/</id>
     <published>2016-04-02T06:05:17.000Z</published>
-    <updated>2016-04-02T11:06:46.000Z</updated>
+    <updated>2016-04-02T11:13:11.000Z</updated>
     <content type="html"><![CDATA[<p>##【白领一族*第一辑】</p>
 <a id="more"></a>
-<p>###【Lesson1 面试应试者】<br><figure class="highlight http"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">M</span>: <span class="string">Tell me abount yourselef, Sharon. Why are you appling for this job!</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">W</span>: <span class="string">In my research abount Millennium, it sounds like a perfit fit for me.</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">M</span>: <span class="string">Why is that?</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">W</span>: <span class="string">This company has won a lot of awards for its R&amp;D. I also love the new Marketing campaign.</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">M</span>: <span class="string">You did your homework. why are you a good fit? What can you bring to the team?</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">W</span>: <span class="string">As my references will tell you, I am an over-achiever. I excel at mutil-tasking and I am an enthusiastic team player.</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">M</span>: <span class="string">Good, good. Have you done any computer work?</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">W</span>: <span class="string">As a free-lancer, I collaborated with my client to develop a web page.</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">M</span>: <span class="string">Are you proficient in Microsoft and Adobe?</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">W</span>: <span class="string">Yes, I am.</span></span></span></span></span></span></span></span></span></span></span><br></pre></td></tr></table></figure></p>
+<p>###【Lesson1 面试应试者】<br><figure class="highlight http"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">M</span>: <span class="string">Tell me abount yourselef, Sharon. Why are you applying for this job!</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">W</span>: <span class="string">In my research abount Millennium, it sounds like a perfit fit for me.</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">M</span>: <span class="string">Why is that?</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">W</span>: <span class="string">This company has won a lot of awards for its R&amp;D. I also love the new Marketing campaign.</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">M</span>: <span class="string">You did your homework. Why are you a good fit? What can you bring to the team?</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">W</span>: <span class="string">As my references will tell you, I am an over-achiever. I excel at mutil-tasking and I am an enthusiastic team player.</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">M</span>: <span class="string">Good, good. Have you done any computer work?</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">W</span>: <span class="string">As a free-lancer, I collaborated with my client to develop a web page.</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">M</span>: <span class="string">Are you proficient in Microsoft and Adobe?</span></span><br><span class="line"></span><br><span class="line"><span class="http"><span class="attribute">W</span>: <span class="string">Yes, I am.</span></span></span></span></span></span></span></span></span></span></span><br></pre></td></tr></table></figure></p>
 <p>…not the end…</p>
 ]]></content>
     <summary type="html">
